@@ -146,6 +146,62 @@ export const experience = [
 
 export const projects = [
   {
+    name: 'Mubarada',
+    category: 'Logistics',
+    description:
+      'A digital cold-chain platform for managing refrigerated and frozen shipments — real-time tracking and temperature-integrity monitoring across recurring and one-time deliveries.',
+    tags: ['Flutter', 'Real-time Tracking', 'Logistics'],
+    link: 'https://apps.apple.com/id/app/mubarada/id6746339483',
+  },
+  {
+    name: 'ZAT',
+    category: 'Lifestyle',
+    description:
+      'A happiness ecosystem app that helps families, friends, and colleagues organize memorable moments, starting with party and celebration services.',
+    tags: ['Flutter', 'Native Migration', 'Team Lead'],
+    link: 'https://apps.apple.com/id/app/%D8%B2%D8%A7%D8%AA/id1567243339',
+  },
+  {
+    name: 'KreditPlus Mobile',
+    category: 'Fintech',
+    description:
+      'An OJK-licensed Indonesian lending app for credit limits and cash loans against collateral, with installment management, reward points, and financed e-commerce shopping.',
+    tags: ['iOS', 'Payments', 'Fintech'],
+    link: 'https://apps.apple.com/id/app/kreditplus-mobile/id1268717694',
+  },
+  {
+    name: 'Washbox',
+    category: 'Laundromat App',
+    description:
+      'Extended a logistics app by integrating multi-country payment gateways for reliable cross-border transactions.',
+    tags: ['Payments', 'Integration', 'Logistics'],
+    link: 'https://apps.apple.com/id/app/washbox-lv/id1263824972',
+  },
+  {
+    name: 'Mililani Town Association',
+    category: 'Native iOS',
+    description:
+    'A community app migrated from web to native, improving performance and user engagement end-to-end.',
+    tags: ['Swift', 'UIKit', 'Native Migration'],
+    link: 'https://apps.apple.com/us/app/mililani-town-association/id1454348424',
+  },
+  {
+    name: 'Playfield',
+    category: 'Flutter',
+    description:
+    'A Flutter app driven from concept to launch on both the App Store and Play Store, with a seamless, high-performance experience.',
+    tags: ['Flutter', 'Dart', 'Cross-platform'],
+    link: 'https://apps.apple.com/id/app/playfield-premium-club/id6468434475',
+  },
+  {
+    name: 'CFS Checklist',
+    category: 'Mobile App',
+    description:
+      'A daily fire-safety inspection app letting site directors log risks and generate PDF compliance reports for official sharing.',
+    tags: ['Mobile', 'PDF Reports', 'Compliance'],
+    link: 'https://apps.apple.com/id/app/cfs-checklist/id6483254114',
+  },
+  {
     name: 'GreenHCM',
     category: 'HR Platform',
     description:
@@ -160,38 +216,6 @@ export const projects = [
       'An HR platform built from scratch, turning complex HR workflows into a clean, user-friendly interface.',
     tags: ['iOS', 'Workflows', 'HR'],
     link: 'https://apps.apple.com/id/app/epployee/id1544605433',
-  },
-  {
-    name: 'Mililani Town Association',
-    category: 'Native iOS',
-    description:
-      'A community app migrated from web to native, improving performance and user engagement end-to-end.',
-    tags: ['Swift', 'UIKit', 'Native Migration'],
-    link: 'https://apps.apple.com/us/app/mililani-town-association/id1454348424',
-  },
-  {
-    name: 'Playfield',
-    category: 'Flutter',
-    description:
-      'A Flutter app driven from concept to launch on both the App Store and Play Store, with a seamless, high-performance experience.',
-    tags: ['Flutter', 'Dart', 'Cross-platform'],
-    link: null,
-  },
-  {
-    name: 'CFS Checklist',
-    category: 'Mobile App',
-    description:
-      'A daily fire-safety inspection app letting site directors log risks and generate PDF compliance reports for official sharing.',
-    tags: ['Mobile', 'PDF Reports', 'Compliance'],
-    link: null,
-  },
-  {
-    name: 'Washbox',
-    category: 'Fintech',
-    description:
-      'Extended a logistics app by integrating multi-country payment gateways for reliable cross-border transactions.',
-    tags: ['Payments', 'Integration', 'Logistics'],
-    link: null,
   },
 ]
 
