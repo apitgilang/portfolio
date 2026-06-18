@@ -1,11 +1,17 @@
+import { lazy, Suspense } from 'react'
 import { profile, stats } from '../data/resume.js'
 import { ArrowDown, ArrowUpRight, MapPin } from './Icons.jsx'
+
+const HeroCanvas = lazy(() => import('./HeroCanvas.jsx'))
 
 export default function Hero() {
   return (
     <section id="top" className="hero">
       <div className="hero__glow" aria-hidden />
       <div className="hero__grid-overlay" aria-hidden />
+      <Suspense fallback={null}>
+        <HeroCanvas />
+      </Suspense>
 
       <div className="container hero__inner">
         <p className="hero__status" data-reveal>

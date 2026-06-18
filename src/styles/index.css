@@ -339,8 +339,21 @@ ul, ol {
   -webkit-mask-image: radial-gradient(ellipse 80% 60% at 50% 40%, #000 30%, transparent 75%);
   pointer-events: none;
 }
+.hero__canvas {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  opacity: 0.55;
+  mask-image: radial-gradient(ellipse 70% 65% at 50% 42%, #000 35%, transparent 78%);
+  -webkit-mask-image: radial-gradient(ellipse 70% 65% at 50% 42%, #000 35%, transparent 78%);
+}
+.hero__canvas canvas {
+  display: block;
+}
 .hero__inner {
   position: relative;
+  z-index: 1;
   text-align: center;
   display: flex;
   flex-direction: column;
